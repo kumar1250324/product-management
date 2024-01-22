@@ -17,7 +17,7 @@ public class ProductService {
 	}
 
 	public Product getProductById(Long id) {
-		System.out.println("inside service " + id);
+		
 		return productRepository.findById(id).orElse(null);
 	}
 

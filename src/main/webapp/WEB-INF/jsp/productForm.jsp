@@ -38,7 +38,7 @@
         }
 
         input[type="submit"] {
-            background-color: #0056b3;
+            background-color: #007bff;
             color: #fff;
             cursor: pointer;
         }
